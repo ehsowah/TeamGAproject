@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8353C2DA4A08AF7F06B14DFA /* Pods_TeamGAproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F00108A9C86C69DFCC35AEE /* Pods_TeamGAproject.framework */; };
+		FB0608332258E7BA0014C318 /* Spring Open House March 12, 2019.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB0608322258E7BA0014C318 /* Spring Open House March 12, 2019.mp4 */; };
+		FB0608362258E9290014C318 /* EmployeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0608352258E9290014C318 /* EmployeeController.swift */; };
+		FB0608382258EA730014C318 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0608372258EA730014C318 /* EmployeeCell.swift */; };
+		FB10231D2246D2B600E4F397 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10231C2246D2B600E4F397 /* User.swift */; };
+		FB3080792249A00C006099BE /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3080782249A00C006099BE /* NewsFeedCell.swift */; };
+		FB896A64224D851400AFD7E4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB896A63224D851400AFD7E4 /* Comment.swift */; };
+		FB9D3E1522455176003F4CA3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E1422455176003F4CA3 /* LoginController.swift */; };
+		FB9D3E17224551FB003F4CA3 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E16224551FB003F4CA3 /* TimerController.swift */; };
+		FB9D3E1C224554AD003F4CA3 /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E1B224554AD003F4CA3 /* NewsFeedController.swift */; };
+		FB9D3E1F224554F9003F4CA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E1E224554F9003F4CA3 /* HomeViewController.swift */; };
+		FB9D3E2222455560003F4CA3 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E2122455560003F4CA3 /* ProfileController.swift */; };
+		FB9D3E2422455A95003F4CA3 /* ProfileTimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E2322455A95003F4CA3 /* ProfileTimerCell.swift */; };
+		FB9D3E2622455B84003F4CA3 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E2522455B84003F4CA3 /* ProfileHeader.swift */; };
+		FB9D3E2922455F19003F4CA3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E2822455F19003F4CA3 /* CustomImageView.swift */; };
+		FB9D3E2B224562AD003F4CA3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D3E2A224562AD003F4CA3 /* Extension.swift */; };
+		FB9F93A6224A87280089AA1F /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F93A5224A87280089AA1F /* ComposeView.swift */; };
+		FB9F93A8224A90A60089AA1F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F93A7224A90A60089AA1F /* Post.swift */; };
+		FBA5F6AA22590C3A0056E341 /* EmployeeProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5F6A922590C3A0056E341 /* EmployeeProfileController.swift */; };
+		FBA5F6AC22590CA10056E341 /* EmployeeProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5F6AB22590CA10056E341 /* EmployeeProfileHeader.swift */; };
 		FBA879922243EA7C007ACA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA879912243EA7C007ACA14 /* AppDelegate.swift */; };
-		FBA879942243EA7C007ACA14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA879932243EA7C007ACA14 /* ViewController.swift */; };
-		FBA879972243EA7C007ACA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA879952243EA7C007ACA14 /* Main.storyboard */; };
 		FBA879992243EA7E007ACA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA879982243EA7E007ACA14 /* Assets.xcassets */; };
 		FBA8799C2243EA7E007ACA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA8799A2243EA7E007ACA14 /* LaunchScreen.storyboard */; };
+		FBA879A42243EAD6007ACA14 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA879A32243EAD6007ACA14 /* MainTabBarController.swift */; };
+		FBA879A62243EB87007ACA14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBA879A52243EB87007ACA14 /* GoogleService-Info.plist */; };
+		FBB911D82253FB1F006B7AC7 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB911D72253FB1F006B7AC7 /* ClockTime.swift */; };
+		FBC3C9932257E43A005C6CE1 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBC3C9912257E439005C6CE1 /* ProgressHUD.bundle */; };
+		FBC3C9942257E43A005C6CE1 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3C9922257E43A005C6CE1 /* ProgressHUD.m */; };
+		FBFF930C2246ADF90035A255 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF930B2246ADF90035A255 /* SignupController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F00108A9C86C69DFCC35AEE /* Pods_TeamGAproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamGAproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8A97E4DC0A477AAF6D023A /* Pods-TeamGAproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamGAproject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamGAproject/Pods-TeamGAproject.debug.xcconfig"; sourceTree = "<group>"; };
+		D11E3E51BD34D5151B0D0AA3 /* Pods-TeamGAproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamGAproject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamGAproject/Pods-TeamGAproject.release.xcconfig"; sourceTree = "<group>"; };
+		FB0608322258E7BA0014C318 /* Spring Open House March 12, 2019.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spring Open House March 12, 2019.mp4"; sourceTree = "<group>"; };
+		FB0608352258E9290014C318 /* EmployeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeController.swift; sourceTree = "<group>"; };
+		FB0608372258EA730014C318 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		FB10231C2246D2B600E4F397 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FB3080782249A00C006099BE /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		FB896A63224D851400AFD7E4 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FB9D3E1422455176003F4CA3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FB9D3E16224551FB003F4CA3 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		FB9D3E1B224554AD003F4CA3 /* NewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedController.swift; sourceTree = "<group>"; };
+		FB9D3E1E224554F9003F4CA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB9D3E2122455560003F4CA3 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		FB9D3E2322455A95003F4CA3 /* ProfileTimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTimerCell.swift; sourceTree = "<group>"; };
+		FB9D3E2522455B84003F4CA3 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		FB9D3E2822455F19003F4CA3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		FB9D3E2A224562AD003F4CA3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FB9F93A5224A87280089AA1F /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		FB9F93A7224A90A60089AA1F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FBA5F6A922590C3A0056E341 /* EmployeeProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileController.swift; sourceTree = "<group>"; };
+		FBA5F6AB22590CA10056E341 /* EmployeeProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileHeader.swift; sourceTree = "<group>"; };
 		FBA8798E2243EA7C007ACA14 /* TeamGAproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamGAproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA879912243EA7C007ACA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBA879932243EA7C007ACA14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBA879962243EA7C007ACA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBA879982243EA7E007ACA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA8799B2243EA7E007ACA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA8799D2243EA7E007ACA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA879A32243EAD6007ACA14 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FBA879A52243EB87007ACA14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBB911D72253FB1F006B7AC7 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
+		FBC3C98F2257E438005C6CE1 /* TeamGAproject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamGAproject-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBC3C9902257E439005C6CE1 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		FBC3C9912257E439005C6CE1 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		FBC3C9922257E43A005C6CE1 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		FBFF930B2246ADF90035A255 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8353C2DA4A08AF7F06B14DFA /* Pods_TeamGAproject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601ACC6878A048E0F894E981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A97E4DC0A477AAF6D023A /* Pods-TeamGAproject.debug.xcconfig */,
+				D11E3E51BD34D5151B0D0AA3 /* Pods-TeamGAproject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71C28FEBB1A8FBE7F15CB53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F00108A9C86C69DFCC35AEE /* Pods_TeamGAproject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0608342258E87D0014C318 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				FB0608352258E9290014C318 /* EmployeeController.swift */,
+				FB0608372258EA730014C318 /* EmployeeCell.swift */,
+				FBA5F6A922590C3A0056E341 /* EmployeeProfileController.swift */,
+				FBA5F6AB22590CA10056E341 /* EmployeeProfileHeader.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		FB9D3E1822455460003F4CA3 /* loginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E1422455176003F4CA3 /* LoginController.swift */,
+				FBFF930B2246ADF90035A255 /* SignupController.swift */,
+			);
+			path = loginSignUp;
+			sourceTree = "<group>";
+		};
+		FB9D3E1922455474003F4CA3 /* clockInOut */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E16224551FB003F4CA3 /* TimerController.swift */,
+			);
+			path = clockInOut;
+			sourceTree = "<group>";
+		};
+		FB9D3E1A2245547B003F4CA3 /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E1B224554AD003F4CA3 /* NewsFeedController.swift */,
+				FB3080782249A00C006099BE /* NewsFeedCell.swift */,
+				FB9F93A5224A87280089AA1F /* ComposeView.swift */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		FB9D3E1D224554D8003F4CA3 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E1E224554F9003F4CA3 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		FB9D3E2022455524003F4CA3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E2122455560003F4CA3 /* ProfileController.swift */,
+				FB9D3E2322455A95003F4CA3 /* ProfileTimerCell.swift */,
+				FB9D3E2522455B84003F4CA3 /* ProfileHeader.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FB9D3E2722455EF8003F4CA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB9D3E2822455F19003F4CA3 /* CustomImageView.swift */,
+				FB9D3E2A224562AD003F4CA3 /* Extension.swift */,
+				FB10231C2246D2B600E4F397 /* User.swift */,
+				FB9F93A7224A90A60089AA1F /* Post.swift */,
+				FBB911D72253FB1F006B7AC7 /* ClockTime.swift */,
+				FB896A63224D851400AFD7E4 /* Comment.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		FBA879852243EA7C007ACA14 = {
 			isa = PBXGroup;
 			children = (
 				FBA879902243EA7C007ACA14 /* TeamGAproject */,
 				FBA8798F2243EA7C007ACA14 /* Products */,
+				601ACC6878A048E0F894E981 /* Pods */,
+				71C28FEBB1A8FBE7F15CB53B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +196,33 @@
 			isa = PBXGroup;
 			children = (
 				FBA879912243EA7C007ACA14 /* AppDelegate.swift */,
-				FBA879932243EA7C007ACA14 /* ViewController.swift */,
-				FBA879952243EA7C007ACA14 /* Main.storyboard */,
+				FBA879A32243EAD6007ACA14 /* MainTabBarController.swift */,
+				FB9D3E1822455460003F4CA3 /* loginSignUp */,
+				FB9D3E1D224554D8003F4CA3 /* home */,
+				FB9D3E1A2245547B003F4CA3 /* NewsFeed */,
+				FB9D3E1922455474003F4CA3 /* clockInOut */,
+				FB9D3E2022455524003F4CA3 /* Profile */,
+				FB0608342258E87D0014C318 /* Employee */,
+				FB9D3E2722455EF8003F4CA3 /* Utilities */,
+				FBFD868E225926650096F821 /* video */,
+				FBC3C9912257E439005C6CE1 /* ProgressHUD.bundle */,
+				FBC3C9902257E439005C6CE1 /* ProgressHUD.h */,
+				FBC3C9922257E43A005C6CE1 /* ProgressHUD.m */,
+				FBC3C98F2257E438005C6CE1 /* TeamGAproject-Bridging-Header.h */,
 				FBA879982243EA7E007ACA14 /* Assets.xcassets */,
 				FBA8799A2243EA7E007ACA14 /* LaunchScreen.storyboard */,
 				FBA8799D2243EA7E007ACA14 /* Info.plist */,
+				FBA879A52243EB87007ACA14 /* GoogleService-Info.plist */,
 			);
 			path = TeamGAproject;
+			sourceTree = "<group>";
+		};
+		FBFD868E225926650096F821 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FB0608322258E7BA0014C318 /* Spring Open House March 12, 2019.mp4 */,
+			);
+			path = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA879A02243EA7E007ACA14 /* Build configuration list for PBXNativeTarget "TeamGAproject" */;
 			buildPhases = (
+				5953732409150381065F06EA /* [CP] Check Pods Manifest.lock */,
 				FBA8798A2243EA7C007ACA14 /* Sources */,
 				FBA8798B2243EA7C007ACA14 /* Frameworks */,
 				FBA8798C2243EA7C007ACA14 /* Resources */,
+				27E65E7E14EB649C128C5B12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +259,7 @@
 				TargetAttributes = {
 					FBA8798D2243EA7C007ACA14 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -124,33 +288,93 @@
 			files = (
 				FBA8799C2243EA7E007ACA14 /* LaunchScreen.storyboard in Resources */,
 				FBA879992243EA7E007ACA14 /* Assets.xcassets in Resources */,
-				FBA879972243EA7C007ACA14 /* Main.storyboard in Resources */,
+				FBC3C9932257E43A005C6CE1 /* ProgressHUD.bundle in Resources */,
+				FB0608332258E7BA0014C318 /* Spring Open House March 12, 2019.mp4 in Resources */,
+				FBA879A62243EB87007ACA14 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E65E7E14EB649C128C5B12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeamGAproject/Pods-TeamGAproject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamGAproject/Pods-TeamGAproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5953732409150381065F06EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamGAproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBA8798A2243EA7C007ACA14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA879942243EA7C007ACA14 /* ViewController.swift in Sources */,
+				FB9D3E1C224554AD003F4CA3 /* NewsFeedController.swift in Sources */,
+				FBC3C9942257E43A005C6CE1 /* ProgressHUD.m in Sources */,
+				FB0608382258EA730014C318 /* EmployeeCell.swift in Sources */,
+				FB9D3E2422455A95003F4CA3 /* ProfileTimerCell.swift in Sources */,
+				FB9D3E2B224562AD003F4CA3 /* Extension.swift in Sources */,
+				FBA5F6AA22590C3A0056E341 /* EmployeeProfileController.swift in Sources */,
+				FB9F93A8224A90A60089AA1F /* Post.swift in Sources */,
+				FB9D3E1522455176003F4CA3 /* LoginController.swift in Sources */,
+				FB3080792249A00C006099BE /* NewsFeedCell.swift in Sources */,
+				FBFF930C2246ADF90035A255 /* SignupController.swift in Sources */,
+				FB10231D2246D2B600E4F397 /* User.swift in Sources */,
+				FB9D3E17224551FB003F4CA3 /* TimerController.swift in Sources */,
+				FB9D3E1F224554F9003F4CA3 /* HomeViewController.swift in Sources */,
 				FBA879922243EA7C007ACA14 /* AppDelegate.swift in Sources */,
+				FB9D3E2922455F19003F4CA3 /* CustomImageView.swift in Sources */,
+				FBA5F6AC22590CA10056E341 /* EmployeeProfileHeader.swift in Sources */,
+				FBA879A42243EAD6007ACA14 /* MainTabBarController.swift in Sources */,
+				FB0608362258E9290014C318 /* EmployeeController.swift in Sources */,
+				FB896A64224D851400AFD7E4 /* Comment.swift in Sources */,
+				FBB911D82253FB1F006B7AC7 /* ClockTime.swift in Sources */,
+				FB9F93A6224A87280089AA1F /* ComposeView.swift in Sources */,
+				FB9D3E2622455B84003F4CA3 /* ProfileHeader.swift in Sources */,
+				FB9D3E2222455560003F4CA3 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBA879952243EA7C007ACA14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA879962243EA7C007ACA14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBA8799A2243EA7E007ACA14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,9 +504,12 @@
 		};
 		FBA879A12243EA7E007ACA14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8A97E4DC0A477AAF6D023A /* Pods-TeamGAproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5297G38R8;
 				INFOPLIST_FILE = TeamGAproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +517,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sowah.TeamGAproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamGAproject/TeamGAproject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +526,12 @@
 		};
 		FBA879A22243EA7E007ACA14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11E3E51BD34D5151B0D0AA3 /* Pods-TeamGAproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5297G38R8;
 				INFOPLIST_FILE = TeamGAproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sowah.TeamGAproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamGAproject/TeamGAproject-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

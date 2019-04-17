@@ -1,0 +1,6 @@
+framework module Pods_TeamGAproject {
+  umbrella header "Pods-TeamGAproject-umbrella.h"
+
+  export *
+  module * { export * }
+}
