@@ -6,3 +6,6 @@ iOS developer
 
 ## Technologies
 Swift, Xcode, Firebase
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
