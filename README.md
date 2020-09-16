@@ -7,5 +7,7 @@ iOS App developer
 ## Technologies
 Swift, Xcode, Firebase
 
-![Alt Text](https://raw.githubusercontent.com/ehsowah/TeamGAproject/master/Hnet-image.gif)
+<p align="center">
+<img src="images/sakura/sakura-play.png" width="230"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-win.png" width="230" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-example.gif" width="226" title="Word Guess">
+</p>
 
