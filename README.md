@@ -7,5 +7,5 @@ iOS App developer
 ## Technologies
 Swift, Xcode, Firebase
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://raw.githubusercontent.com/ehsowah/TeamGAproject/master/Hnet-image.gif)
 
