@@ -8,6 +8,6 @@ iOS App developer
 Swift, Xcode, Firebase
 
 <p align="center">
-<img src="images/sakura/sakura-play.png" width="230"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-win.png" width="230" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-example.gif" width="226" title="Word Guess">
+<img src="https://raw.githubusercontent.com/ehsowah/TeamGAproject/master/Hnet-image.gif" width="230"  title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-win.png" width="230" title="Word Guess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/sakura/sakura-example.gif" width="226" title="Word Guess">
 </p>
 
